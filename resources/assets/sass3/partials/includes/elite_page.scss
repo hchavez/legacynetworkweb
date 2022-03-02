@@ -1,0 +1,611 @@
+.elite_challenge_page_container {
+
+  .section_1 {
+    .section_title {
+      font-size: 1.75rem;
+    }
+    .section_1_list {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        text-align: center;
+        margin: 4rem 0;
+        flex: 1;
+
+        img {
+          height: 40px;
+        }
+
+        .title {
+          color: $ln-blue;
+          font-size: .75rem;
+          margin-top: 1rem;
+        }
+
+        .info {
+          margin-top: 3rem;
+          font-family: $cabin;
+          font-size: 1.175rem;
+        }
+
+        a.link{
+          color: #fff;
+          background-color: #00acef;
+          padding: 1rem 2rem;
+          font-size: 1.5rem;
+          border-radius: 0.5rem;
+          -webkit-transition: 0.1s;
+          transition: 0.1s;
+        }
+      }
+    }
+  }
+
+  .blue_section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.75rem;
+    background-color: $ln_blue;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        h3, h6 {
+          color: $white;
+        }
+
+        h6 {
+          margin-top: 1.5rem;
+        }
+
+        a.link {
+          color: $ln_blue;
+          background-color: $white;
+          padding: 1rem 2rem;
+          font-size: 1.75rem;
+          border-radius: 0.5rem;
+          transition: 0.1s;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &:first-child {
+          h3 {
+            padding: 0 0 1rem 0;
+            font-size: 1.5rem;
+          }
+          flex: 2;
+        }
+
+        &:last-child {
+          width: 80%;
+          display: flex;
+          justify-content: center;
+
+          .details_container {
+            p {
+              font-family: $cabin;
+              font-size: 2.05rem;
+              color: $white;
+              line-height: 2.0rem;
+              margin: 0;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .section_1_1 {
+    background-color: #e2e1e3;
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        h3, h6 {
+          color: $black;
+        }
+
+        &:first-child {
+          img {
+            width: 100%;
+          }
+        }
+
+        &:last-child {
+          padding-top: 2rem;
+          display: flex;
+          justify-content: space-around;
+          .details_container {
+            width: 80%;
+            p {
+              font-size: 1.5rem;
+              line-height: 1.5rem;
+            }
+
+            ul {
+              margin-top: 3rem;
+              li {
+                text-align: left;
+                p {
+                  padding: 0;
+                  margin: 0;
+                  font-family: $cabin;
+                  font-size: 1.375rem;
+                  font-weight: bold;
+
+                  &.not_bold {
+                    font-weight: normal;
+                  }
+                }
+              }
+            }
+
+            a.link {
+              color: white;
+              background-color: $ln_blue;
+              padding: 1rem 2rem;
+              font-size: 1.75rem;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_1_2 {
+    background-color: $white;
+    padding: 2rem 0 3rem 0;
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          padding-top: 2rem;
+          display: flex;
+          justify-content: space-around;
+          .details_container {
+            h3 {
+              font-size: 1.75rem;
+            }
+            width: 80%;
+            p {
+              font-size: 1.5rem;
+              line-height: 1.5rem;
+            }
+
+            ul {
+              margin-top: 3rem;
+              li {
+                text-align: left;
+                p {
+                  padding: 0;
+                  margin: 0;
+                  font-family: $cabin;
+                  font-size: 1.5rem;
+
+                  &.not_bold {
+                    font-weight: normal;
+                  }
+                }
+              }
+            }
+
+            a.link {
+              color: white;
+              background-color: $ln_blue;
+              padding: 1rem 2rem;
+              font-size: 1.75rem;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_2 {
+    background-color: $light-grey;
+    position: relative;
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        padding: 50px 0;
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        img {
+          width: 100%;
+        }
+
+        &:first-child {
+          h3 {
+            text-align: center;
+            font-size: 1.75rem;
+          }
+          p {
+            font-size: 1.7rem;
+            line-height: 1.7rem;
+          }
+          a.link {
+            color: white;
+            background-color: $ln_blue;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: 0.1s;
+
+            &:hover {
+              text-decoration: underline;
+              background-color: #64c0ef;
+            }
+          }
+        }
+
+        &:last-child {
+          display: none;
+          position: relative;
+          align-self: inherit;
+          .biome_man {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  .section_3 {
+    background: url(/new_images/business/proargi9-hughescenter-edit.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+
+    .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      max-width: inherit;
+
+      &--item {
+        align-self: center;
+        text-align: center;
+
+        &:first-child {
+          flex: 1;
+        }
+        &:last-child {
+          position: relative;
+          padding: 350px 0;
+          color: $white;
+          flex: 1;
+
+          h3 {
+            text-align: center;
+            font-size: 1.75rem;
+          }
+          p {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding: 0 80px;
+          }
+          a.link {
+            color: white;
+            background-color: $ln_blue;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: 0.1s;
+
+            &:hover {
+              text-decoration: underline;
+              background-color: #64c0ef;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .section_4 {
+    background-color: $ln_blue;
+    padding-top: 80px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          h3 {
+            color: $white;
+            text-align: center;
+            font-size: 1.75rem;
+          }
+          p {
+            color: $white;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+          }
+          a.link {
+            color: $ln_blue;
+            background-color: $white;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: 0.1s;
+
+            &:hover {
+              text-decoration: underline;
+              background-color: #64c0ef;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .stats_section {
+    background-color: $ln_blue;
+    padding: 3rem 0 7rem 0;
+
+    .stats_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+
+      .stat_item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .circle_container {
+          background-color: $white;
+          height: 8rem;
+          width: 8rem;
+          border-radius: 50%;
+          display: flex;
+          align-self: center;
+
+          .percentage {
+            flex: 1;
+            align-self: center;
+            color: $ln_blue;
+            font-family: $cabin;
+            font-size: 2rem;
+            text-align: center;
+          }
+        }
+
+        .description {
+          font-family: $north;
+          color: $white;
+          margin-top: 2rem;
+          text-align: center;
+          font-size: .75rem;
+        }
+      }
+    }
+
+    a.link {
+      color: $ln_blue;
+      background-color: $white;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+      transition: 0.1s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .lift {
+    z-index: 1;
+    position: inherit;
+  }
+
+  .section_5 {
+    .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      max-width: inherit;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          position: relative;
+          padding: 50px 0 0 0;
+          left: 0;
+          img.prod {
+            width: 80%;
+          }
+
+          h3 {
+            text-align: center;
+            font-size: 1.5rem;
+          }
+          p {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding: 0 80px;
+          }
+          a.link {
+            color: white;
+            background-color: $ln_blue;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: 0.1s;
+
+            &:hover {
+              text-decoration: underline;
+              background-color: #64c0ef;
+            }
+          }
+        }
+
+        &:last-child {
+          img {
+            width: 60%;
+            display: none;
+            position: relative;
+            left: 20%;
+          }
+        }
+
+      }
+    }
+  }
+
+  .section_6 {
+    background: url(/new_images/elite_challenge/takebythehand.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+
+    .container {
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+
+          h3 {
+            color: $white;
+            font-size: 1.75rem;
+            margin-bottom: 565px;
+          }
+
+          img {
+            width: 100%;
+          }
+
+          a.link {
+            color: white;
+            background-color: $ln_blue;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: 0.1s;
+
+            &:hover {
+              text-decoration: underline;
+              background-color: #64c0ef;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .section_7 {
+    padding: 100px 0;
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+        a.link {
+          color: $white;
+          background-color: $ln_blue;
+          padding: 1rem 2rem;
+          font-size: 1.5rem;
+          border-radius: 0.5rem;
+          transition: 0.1s;
+
+          &:hover {
+            text-decoration: underline;
+            background-color: #64c0ef;
+          }
+        }
+        &:first-child {
+          h3 {
+            text-align: center;
+            font-size: 1.75rem;
+          }
+          p {
+            color: $white;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .section_8 {
+    padding-top: 100px;
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+          }
+
+        }
+
+      }
+    }
+  }
+
+}

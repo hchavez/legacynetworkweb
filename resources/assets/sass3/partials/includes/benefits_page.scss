@@ -1,0 +1,247 @@
+.benefits_page_container {
+  & > header {
+    background: $header_blue;
+    padding: 0.375rem 0;
+    text-align: center;
+
+    h4 {
+      color: $white;
+      font-family: $cabin;
+      font-size: 1rem;
+    }
+  }
+
+  .banner {
+    background: url(/new_images/banner_bg.png) no-repeat center;
+    background-size: cover;
+
+    header {
+      background: rgba(27, 68, 128, 0.4);
+      text-align: inherit;
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        img {
+          height: 36px;
+          align-self: center;
+        }
+
+        a {
+          align-self: center;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .section_header {
+    background-color: $ln_blue;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.5rem;
+    color: $white;
+
+    .section_title_secondary {
+      font-size: 1.25rem;
+    }
+  }
+
+  .elite_health_challenge_benefits_section {
+    .details_container {
+      padding: 1.5rem;
+      p {
+        font-family: $cabin;
+        font-size: 1.125rem;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        &:first-child {
+          flex: 2;
+        }
+
+        &:last-child {
+          flex: 1;
+          background: url(/new_images/biome.png) no-repeat center;
+          background-size: cover;
+          min-width: 400px;
+          min-height: 500px;
+        }
+
+      }
+    }
+  }
+
+  .microbiome_section {
+    .container {
+      display: flex;
+      flex-direction: row;
+
+      &--item {
+        flex: 1;
+
+        .product_list {
+          margin: 0;
+          padding: 0;
+
+          .product_list_item {
+            display: flex;
+            flex-direction: row;
+            .img_container {
+              flex: 1;
+            }
+            .article {
+              //flex: 3;
+              header {
+                text-align: left;
+                font-family: $north;
+                margin-top: 1rem;
+                font-size: 1.25rem;
+              }
+
+              p {
+                text-align: left;
+                font-family: $cabin;
+                font-size: 1.175rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .sac {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &--item {
+        flex: 1;
+        text-align: center;
+        img {
+          width: 70%;
+          height: 100%;
+        }
+        header {
+          text-align: left;
+          font-family: $north;
+          margin-top: 1rem;
+          font-size: 1.25rem;
+          padding: 0 1.5rem;
+          color: $darker-grey;
+        }
+
+        p {
+          text-align: left;
+          font-family: $cabin;
+          font-size: 1.175rem;
+          padding: 0 1.5rem;
+          line-height: 1.25rem;
+          color: $darker-grey;
+        }
+
+        &.details {
+          flex: 2;
+          order: 2;
+        }
+      }
+
+      &.gray {
+        background-color: $light-grey;
+        //background-color: $white;
+      }
+    }
+  }
+
+  .stats_section {
+    padding: 3rem 0;
+
+    .stats_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      margin: 0 auto;
+
+      .stat_item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .circle_container {
+          background-color: $ln_blue;
+          height: 10rem;
+          width: 10rem;
+          border-radius: 50%;
+          display: flex;
+          align-self: center;
+
+          .percentage {
+            flex: 1;
+            align-self: center;
+            color: $white;
+            font-family: $cabin;
+            font-size: 2rem;
+            text-align: center;
+          }
+        }
+
+        .description {
+          font-family: $north;
+          margin-top: 2rem;
+          text-align: center;
+          font-size: .75rem;
+        }
+      }
+    }
+  }
+
+  .start_now_section {
+    padding: 3rem 0;
+    background-color: $ln_blue;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        h3, h6 {
+          color: $white;
+        }
+
+        h6 {
+          margin-top: 1.5rem;
+        }
+
+        &:first-child {
+          flex: 2;
+        }
+
+        &:last-child {
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-end;
+
+          .btn-light {
+            font-family: $north;
+            font-size: 1.5rem;
+            padding: 1rem 1.25rem 1.25rem 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}

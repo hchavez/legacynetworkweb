@@ -1,0 +1,298 @@
+header.purl_container {
+  background: $header_blue;
+  padding: 0.375rem 0;
+  text-align: center;
+  color: $white;
+
+  .container {
+    display: flex;
+
+    h4, a {
+      &:first-child {
+        text-align: left;
+      }
+
+      &:last-child {
+        text-align: right;
+      }
+      color: $white;
+      font-family: $cabin;
+      font-size: 1rem;
+    }
+
+    h4:last-child {
+      flex: 1;
+    }
+  }
+
+}
+
+.public_page_container {
+
+  .banner {
+    background: url(/new_images/ehc-banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 100px;
+    position: relative;
+
+    &.no-show {
+      padding-bottom: 0 !important;
+
+      &:before {
+        content: normal;
+      }
+    }
+
+    &:before {
+      content: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+80&0+0,1+80 */
+      background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0); /* IE6-9 */
+    }
+
+    header {
+      height: 84px;
+      background: rgba(27, 68, 128, 0.4);
+      text-align: inherit;
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        > a {
+          margin-top: 6px;
+        }
+
+        img {
+          height: 36px;
+          align-self: center;
+        }
+
+        nav {
+          display: flex;
+          justify-content: center;
+
+          ul {
+            margin: 0;
+            display: none;
+            position: absolute;
+            top: 84px;
+            text-align: right;
+            right: -50px;
+            font-size: 1.5rem;
+            background: #00acef;
+            color: white;
+            width: 50%;
+            z-index: 8;
+            padding: 1rem 41px 1.5rem 41px;
+
+            li {
+              display: block;
+              a {
+                color: $white;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+
+          a.btn {
+            align-self: center;
+            font-weight: bold;
+            margin-left: .75rem;
+          }
+
+          .fa-bars, .fa-minus {
+            margin-left: .5rem;
+            display: flex;
+            align-self: center;
+            cursor: pointer;
+            border: 1px solid $ln_blue;
+            padding: 6px 10px;
+            color: $white;
+            background: $ln_blue;
+            border-radius: 4px;
+          }
+        }
+
+      }
+    }
+
+    .container {
+      .banner_text {
+        font-family: $north;
+        text-align: center;
+
+        &--sub_title {
+          font-size: 1rem;
+          margin-top: 3rem;
+        }
+
+        &--title {
+          font-size: 2rem;
+        }
+
+        &--info {
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 4rem;
+          h4 {
+            font-size: 1.5rem;
+            font-family: $cabin;
+          }
+        }
+      }
+    }
+  }
+  .banner.faded {
+    &:before {
+      content: '';
+    }
+  }
+  .section_title_container {
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+    .section_title {
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        background-color: $black;
+        width: 40px;
+        margin: auto;
+        top: 80px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  .gray-gradient {
+    background: linear-gradient(to right, #e2e2e2 0%, #f4f4f4 27%, #f4f4f4 71%, #e2e2e2 100%);
+  }
+  .video-thumbnail {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      content: "\f01d";
+      font-family: "FontAwesome", "Cabin Condensed", Helvetica, Arial, Sans-serif;
+      font-size: 160px;
+      color: $white;
+      transition-duration: 0.3s;
+    }
+    &:hover:before {
+      color: $ln_blue;
+    }
+  }
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.no-title-bar .ui-dialog-titlebar {
+  display: none;
+}
+
+.ui-widget-overlay {
+  background: #000000 !important;
+  opacity: .7 !important;
+}
+
+.ui-dialog-buttonset {
+  button {
+    background-color: $ln_blue;
+    color: $white;
+  }
+}
+
+.purl_error_message {
+  margin-top: 0;
+  padding-top: 0;
+  color: red;
+
+  ul {
+    margin: 0; padding: 0; list-style-type: none;
+  }
+}
+
+.ui-dialog {
+  position: fixed !important;
+}
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+  &:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  &.active {
+    &:after {
+      content: '\2212';
+    }
+  }
+
+
+}
+
+.accordion-panel {
+  padding: 0;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: 0.4s;
+
+  .img_container {
+    position: relative;
+    .preview {
+      width: 100%;
+    }
+
+    .play_icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
+  }
+}
+
+@import "includes/elite_page";
+@import "includes/benefits_page";
+@import "includes/business_page";
+@import "includes/products";
+@import "includes/buy_products";
+@import "includes/contact";
+@import "includes/coc";
+@import "includes/commissions";

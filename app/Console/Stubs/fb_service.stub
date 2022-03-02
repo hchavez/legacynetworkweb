@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Repositories\DummyClassRepository;
+use App\LegacyNetwork\Repositories\Services\Services;
+
+class DummyClassServices extends Services
+{
+    /**
+     * @var DummyClassRepository $repository
+     */
+    protected $repository;
+
+    function repository()
+    {
+        return DummyClassRepository::class;
+    }
+    
+}

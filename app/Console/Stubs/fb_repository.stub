@@ -1,0 +1,15 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Models\DummyClass;
+use App\LegacyNetwork\Repositories\Eloquent\Repository;
+
+class DummyClassRepository extends Repository
+{
+    function model()
+    {
+        return DummyClass::class;
+    }
+
+}

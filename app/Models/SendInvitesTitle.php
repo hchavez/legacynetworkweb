@@ -1,0 +1,105 @@
+<?php
+
+namespace App\Models;
+
+use App\User;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use OwenIt\Auditing\Contracts\Auditable;
+
+class SendInvitesTitle extends Model
+{
+
+    protected $table = 'send_invite_titles';
+
+    protected $fillable = [
+          'invite_id',
+          'title_1',
+          'title_2',
+          'title_3',
+          'title_4',
+          'title_5',
+          'title_6',
+          'title_7',
+          'title_8',
+          'title_9',
+          'title_10',
+          'title_11',
+          'title_12',
+          'title_13',
+          'title_14',
+          'title_15',
+          'title_16',
+          'title_17',
+          'title_18',
+          'title_19',
+          'title_20',
+          'title_21',
+          'title_22',
+          'title_23',
+          'title_24',
+          'title_25',
+          'title_26',
+          'title_27',
+          'title_28',
+          'title_29',
+          'title_30',
+          'title_31',
+          'title_32',
+          'title_33',
+          'title_34',
+          'title_35',
+          'title_36',
+          'title_37',
+          'title_38',
+          'title_39',
+          'title_40',
+          'title_41',
+          'title_42',
+          'count_1',
+          'count_2',
+          'count_3',
+          'count_4',
+          'count_5',
+          'count_6',
+          'count_7',
+          'count_8',
+          'count_9',
+          'count_10',
+          'count_11',
+          'count_12',
+          'count_13',
+          'count_14',
+          'count_15',
+          'count_16',
+          'count_17',
+          'count_18',
+          'count_19',
+          'count_20',
+          'count_21',
+          'count_22',
+          'count_23',
+          'count_24',
+          'count_25',
+          'count_26',
+          'count_27',
+          'count_28',
+          'count_29',
+          'count_30',
+          'count_31',
+          'count_32',
+          'count_33',
+          'count_34',
+          'count_35',
+          'count_36',
+          'count_37',
+          'count_38',
+          'count_39',
+          'count_40',
+          'count_41',
+          'count_42',
+          'status'
+    ];
+
+
+}

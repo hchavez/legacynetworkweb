@@ -1,0 +1,406 @@
+@media screen and (min-width: $S) {
+  header.purl_container {
+    text-align: right;
+
+    h4 {
+      color: $white;
+      font-family: $cabin;
+      font-size: 1rem;
+    }
+  }
+
+  .public_page_container {
+    .banner {
+      padding-bottom: 200px;
+
+      header {
+        height: 64px;
+        display: flex;
+
+        .container {
+          flex-direction: row;
+
+          nav {
+            ul {
+              top: 64px;
+            }
+          }
+        }
+      }
+
+      .container {
+        .banner_text {
+          font-family: $north;
+          text-align: center;
+
+          &--sub_title {
+            font-size: 1.75rem;
+            margin-top: 4rem;
+          }
+
+          &--title {
+            font-size: 4rem;
+          }
+
+          &--info {
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .elite_challenge_page_container {
+    .section_title_container {
+      padding: 3rem 0 5rem 0;
+    }
+
+    .section_1 {
+      .section_1_list {
+        flex-direction: row;
+
+        &--item {
+          .info {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+    }
+
+    .health_challenges_section {
+      .details_container {
+        h3 {
+          padding: 1rem 0 2rem 0;
+          font-size: inherit;
+        }
+
+        ul {
+          margin-left: 2rem;
+          font-size: 1.375rem;
+        }
+      }
+
+    }
+
+    .stats_section {
+      .stats_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .stat_item {
+          flex: 1;
+        }
+      }
+    }
+
+    .start_now_section {
+
+      .container {
+        flex-direction: row;
+
+        &--item {
+          text-align: left;
+
+          &:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    .ad_section {
+      padding: 3rem 0;
+
+      .container {
+        flex-direction: row;
+
+        img, h2 {
+          align-self: inherit;
+        }
+
+      }
+    }
+
+  }
+  // end .home_page_container
+
+  .benefits_page_container {
+    header {
+      text-align: right;
+
+      h4 {
+        color: $white;
+        font-family: $cabin;
+        font-size: 1rem;
+      }
+    }
+
+    .banner {
+      header {
+        height: 64px;
+        display: flex;
+
+        .container {
+          flex-direction: row;
+        }
+      }
+
+      .container {
+        .banner_text {
+          font-family: $north;
+          text-align: center;
+
+          &--sub_title {
+            font-size: 1.75rem;
+            margin-top: 4rem;
+          }
+
+          &--title {
+            font-size: 4rem;
+          }
+
+          &--info {
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+
+    .stats_section {
+      .stats_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .stat_item {
+          flex: 1;
+        }
+      }
+    }
+
+    .start_now_section {
+
+      .container {
+        flex-direction: row;
+
+        &--item {
+          text-align: left;
+
+          &:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    .microbiome_section {
+      .sac {
+        flex-direction: row;
+        align-items: center;
+
+        &--item {
+          order: 1;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          &.details {
+            order: 1;
+          }
+        }
+      }
+    }
+
+  }
+  // end .benefits_container
+
+  .business_page_container {
+    .business_video {
+      margin-top: -90px;
+    }
+
+  }
+
+  .buy_products_page_container {
+    .banner {
+      padding-bottom: 0;
+      .container {
+        .banner_text {
+          .banner_text--title {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .products_page_container {
+    .banner {
+      .container {
+        .banner_text {
+          .banner_text--title {
+            margin-top: 7rem;
+          }
+
+          .banner_text--info {
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+
+
+
+    .stats_section {
+      .stats_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .stat_item {
+          flex: 1;
+        }
+      }
+    }
+
+    .section_3 {
+
+      .play_icon {
+        top: 50%;
+      }
+
+      .container {
+        &--item {
+          text-align: center;
+
+          &:last-child {
+            h3 {
+              text-align: center;
+              font-size: 2rem;
+            }
+            p {
+              font-size: 2rem;
+              line-height: 2rem;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+  .commission_page_container {
+    .banner {
+      .container {
+        .banner_text {
+          .banner_text--title {
+            margin-top: 7rem;
+          }
+
+          .banner_text--info {
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+
+    .section_1 {
+      padding: 250px 0;
+
+      .play_icon {
+        top: 50%;
+      }
+
+      .container {
+        flex-direction:row;
+        &--item {
+          text-align: center;
+          align-self: flex-start;;
+          margin-left: -20%;
+
+          &:first-child {
+            h3 {
+              text-align: center;
+              font-size: 2rem;
+            }
+            p {
+              font-size: 2rem;
+              line-height: 2rem;
+            }
+
+          }
+
+        }
+      }
+    }
+
+    .section_3 {
+      padding: 50px 0;
+
+      .container {
+        flex-direction:row;
+
+        &--item {
+          text-align: center;
+
+          p {
+            font-size: 1rem;
+            line-height: 1rem;
+          }
+
+        }
+      }
+    }
+
+    .section_4 {
+      padding: 20px 0;
+
+      .container {
+
+        &--item {
+          text-align: center;
+
+          p {
+            font-size: 1rem;
+            line-height: 1rem;
+          }
+
+        }
+      }
+    }
+
+    .section_5 {
+      padding: 250px 0;
+
+      .container {
+        flex-direction:row;
+
+        &--item {
+          text-align: center;
+          align-self: flex-start;;
+          margin-left: -20%;
+
+          &:first-child {
+            h3 {
+              text-align: center;
+              font-size: 2rem;
+            }
+            p {
+              font-size: 2rem;
+              line-height: 2rem;
+            }
+
+          }
+
+        }
+      }
+    }
+
+  }
+}

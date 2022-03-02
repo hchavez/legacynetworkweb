@@ -1,0 +1,310 @@
+@media only screen and (min-width: 1200px) {
+  /*****************************************************
+    1 Header
+  *****************************************************/
+
+  /*****************************************************
+    2 Menu
+  *****************************************************/
+
+  /*****************************************************
+    3 Content
+  *****************************************************/
+
+  /* New Tree */
+  .team-tree__container {
+    padding: 50px 0;
+  }
+
+  .team-tree__container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .team-tree__level {
+    min-height: 55px;
+  }
+
+  .team-tree__heading-left {
+    border-right: 1px solid #c0c0c0;
+  }
+
+  .team-tree__node-wrapper {
+    padding-bottom: 15px;
+    position: relative;
+  }
+
+  .team-tree__node {
+    background: #ccc;
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: auto;
+    max-width: 40px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+
+  .team-tree__node img {
+    width: 100%;
+  }
+
+  .team-tree__node span {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .team-tree__node--full {
+    background: #7fc37a;
+    border-color: #7fc37a;
+  }
+
+  .team-tree__node--half {
+    background: #7fc37a;
+    border-color: #7fc37a;
+  }
+
+  .team-tree__node--half-yellow {
+    background: #7fc37a;
+    border-color: #7fc37a;
+  }
+
+  .team-tree__node--me {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+
+  .team-tree__node--active:hover,
+  .team-tree__node--half:hover,
+  .team-tree__node--full:hover {
+    background: #c8e4f8;
+    border-color: #ccc;
+    color: #000;
+  }
+
+  .team-tree__node:hover {
+    z-index: 999;
+  }
+
+  .team-tree__node:hover .team-tree__name {
+    display: block;
+  }
+
+  .team-tree__name {
+    background: #f3f3f3;
+    color: #000;
+    display: none;
+    font-size: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    z-index: 999;
+  }
+
+  .team-tree__name--left {
+    left: 100%;
+    -webkit-transform: translate(10px, -50%);
+    -moz-transform: translate(10px, -50%);
+    transform: translate(10px, -50%);
+  }
+
+  .team-tree__name--right {
+    right: 100%;
+    -webkit-transform: translate(-10px, -50%);
+    -moz-transform: translate(-10px, -50%);
+    transform: translate(-10px, -50%);
+  }
+
+  .team-tree__name::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .team-tree__name--left::before {
+    border-right: 10px solid #f3f3f3;
+    left: -9px;
+  }
+
+  .team-tree__name--right::before {
+    border-left: 10px solid #f3f3f3;
+    right: -9px;
+  }
+
+  .team-tree__top-branch {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 20px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .team-tree__top-branch::after {
+    content: '';
+    border-left: 1px solid #ccc;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+  }
+
+  .team-tree__body-container {
+    min-height: 200px;
+  }
+
+  .team-tree__body-container::after {
+    content: '';
+    border-left: 1px solid #ccc;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .team-tree__top-branch-wrapper,
+  .team-tree__level-last-container {
+    padding: 0;
+  }
+
+  .team-tree__border--active,
+  .team-tree__border--active::after {
+    border-color: #333;
+  }
+
+  .team-tree__level-last {
+    padding-top: 25px;
+  }
+
+  .team-tree__level-last-wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .team-tree__arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .team-tree__arrow-wrapper {
+    position: relative;
+  }
+
+  .team-tree__arrow span {
+    background: #FF4B4C;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    width: 20px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+  }
+
+  .team-tree__arrow-left span {
+    top: -6px;
+    left: -6px;
+  }
+
+  .team-tree__arrow-right span {
+    top: -6px;
+    right: -6px;
+  }
+
+  .team-tree__arrow img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .team-tree__tree-repo,
+  .team-tree__arrow {
+    display: none;
+  }
+
+  .team-tree__arrow--visible {
+    display: block;
+    margin: 0 20px;
+  }
+
+
+  .team-tree__nav-container {
+    height: 239px;
+    width: 74px;
+    position: relative;
+    top: 0;
+  }
+
+  #team-tree__left-content, #team-tree__right-content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .team-tree__left-tree, .team-tree__right-tree {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .team-tree__arrow-right {
+    margin-right: 35px;
+  }
+
+  .team-tree__left-tree:before {
+    content: normal;
+  }
+
+  .team-tree__right-tree:before {
+    content: normal;
+  }
+
+  .team-tree__main-container {
+    width: auto;
+    margin: 0 -24px;
+  }
+  /*****************************************************
+    4 Footer
+  *****************************************************/
+
+}

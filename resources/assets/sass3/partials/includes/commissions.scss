@@ -1,0 +1,223 @@
+.commission_page_container {
+  a.link {
+    color: $white;
+    background-color: $ln_blue;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    transition: 0.1s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .banner {
+    padding-bottom: 0;
+    .container {
+      .banner_text {
+        .banner_text--title {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .title_section {
+
+    .container {
+      &--item {
+        &:first-child {
+          margin-bottom: 50px;
+
+          .section_title {
+            text-align: center;
+            font-family: $cabin;
+          }
+        }
+
+        &:last-child {
+          .interested {
+            padding: 1rem 2rem;
+            background-color: $ln_blue;
+            color: $white;
+            text-align: center;
+            font-size: 2rem;
+            border-radius: 1rem;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &:first-child {
+
+      }
+
+      :last-child {
+        text-align: center;
+      }
+
+    }
+  }
+
+  .section_1 {
+    background: url(/images/commissions/Happy-Mature-Man-W-267380860.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+    cursor: pointer;
+
+    .play_icon {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      &--item {
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          h3 {
+            text-align: center;
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            color: $white;
+          }
+          p {
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            margin: 3rem 0 1rem 0;
+            color: $white;
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .section_2 {
+    background-color: $white;
+    padding-top: 80px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          h3 {
+            color: $black;
+            text-align: center;
+            font-size: 1.75rem;
+          }
+          p {
+            color: $black;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+          }
+        }
+
+      }
+    }
+  }
+
+  .section_3 {
+    background-color: #f1f1f1;
+    padding-top: 80px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        p {
+          color: $black;
+          font-size: 1rem;
+          line-height: 1rem;
+        }
+
+      }
+    }
+  }
+
+  .section_4 {
+    background-color: $white;
+    padding-top: 40px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        margin-top: 20px;
+        align-self: center;
+        flex: 1;
+        text-align: center;
+
+        img {
+          max-width: 100%;
+        }
+
+        p {
+          color: $black;
+          font-size: 1rem;
+          line-height: 1rem;
+        }
+
+      }
+    }
+  }
+
+  .section_5 {
+    background: url(/images/commissions/african-woman-happy--237372514.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      &--item {
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          h3 {
+            text-align: center;
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            color: $black;
+          }
+          p {
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            margin: 3rem 0 1rem 0;
+            color: $black;
+          }
+
+        }
+
+      }
+    }
+  }
+
+}

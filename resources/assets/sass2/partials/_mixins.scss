@@ -1,0 +1,64 @@
+@mixin MQ($canvas) {
+  @if $canvas == S {
+    @media only screen and (min-width: $S) {
+      @content;
+    }
+  } @else if $canvas == M {
+    @media only screen and (min-width: $M) {
+      @content;
+    }
+  } @else if $canvas == L {
+    @media only screen and (min-width: $L) {
+      @content;
+    }
+  } @else if $canvas == XL {
+    @media only screen and (min-width: $XL) {
+      @content;
+    }
+  } @else if $canvas == XXL {
+    @media only screen and (min-width: $XXL) {
+      @content;
+    }
+  } @else if $canvas == XS {
+    @media only screen and (min-width: $XS) {
+      @content;
+    }
+  } @else if $canvas == XSS {
+    @media only screen and (min-width: $XSS) {
+      @content;
+    }
+  }
+}
+
+@mixin border-radius($val) {
+  $valid: false;
+
+  @if type-of($val) == 'number' {
+    $valid: true;
+  } @else if type-of($val) == 'list' {
+    $valid: true;
+  }
+
+  @if $valid == true {
+    -webkit-border-radius: $val;
+    -moz-border-radius: $val;
+    border-radius: $val;
+  } @else {
+    @warn "Border radius value is invalid."
+  }
+}
+
+@mixin centerize($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 100;
+            height: 100vh;
+            margin: 0;
+        }
+        .full-height {
+            height: 100vh;
+        }
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .position-ref {
+            position: relative;
+        }
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+        .content {
+            text-align: center;
+        }
+        .title {
+            font-size: 84px;
+        }
+        .links > a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-center position-ref full-height">
+    <div class="content">
+        <h1>Authorize Payment Integration</h1>
+        <form class="" action="{{ url('/checkout') }}" method="post">
+            {{ csrf_field() }}
+            <h3>Credit Card Information</h3>
+            <div class="form-group">
+                <label for="card_number">Card Number</label>
+                <input type="text" class="form-control" id="card_number" name="card_number" placeholder="Enter Card Number">
+            </div>
+            <div class="form-group">
+                <label for="card_expiry_year">Expiration Month</label>
+                <input type="text" name="card_expiry_month" value="10">
+                {{--{{ Form::selectMonth(null, null, ['name' => 'card_expiry_month', 'class' => 'form-control', 'required']) }}--}}
+            </div>
+            <div class="form-group">
+                <label for="card_expiry_year">Expiration Year</label>
+                <input type="text" name="card_expiry_year" value="2021">
+                {{--{{ Form::selectYear(null, date('Y'), date('Y') + 10, null, ['name' => 'card_expiry_year', 'class' => 'form-control', 'required']) }}--}}
+            </div>
+            <div class="form-group">
+                <label for="card_cvv">Card Code</label>
+                <input type="text" class="form-control" id="card_cvv" name="card_cvv" placeholder="Enter Card Code">
+            </div>
+            <div class="form-group">
+                <label for="payment_amount">Amount</label>
+                <input type="text" class="form-control" id="payment_amount" name="payment_amount" placeholder="Enter Amount" >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

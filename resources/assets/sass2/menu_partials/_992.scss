@@ -1,0 +1,93 @@
+@media screen and (min-width: $M) {
+  .public_page_container {
+    .banner {
+      header {
+        .container {
+          .fa-bars {
+            display: none !important;
+          }
+
+          nav {
+            ul, li {
+              margin: 0;
+              padding: 0;
+            }
+
+            ul {
+              display: flex;
+              align-self: center;
+              height: 20px;
+              position: inherit;
+              top: inherit;
+              text-align: inherit;
+              right: inherit;
+              font-size: inherit;
+              background: none;
+              color: white;
+              width: inherit;
+              z-index: inherit;
+              padding: inherit;
+
+              li {
+                display: block;
+                padding: 0 .5rem;
+
+                &:last-child {
+                  padding-right: 0;
+                }
+
+                a {
+                  color: $white;
+                  transition: all 0.2s ease;
+                  &:hover {
+                    color: $dark-grey;
+                  }
+                }
+
+                &:hover {
+                  cursor: pointer;
+
+                  & > ul {
+
+                    visibility: visible;
+                    opacity: 1;
+                    display: flex;
+
+                  }
+                }
+
+                ul {
+                  visibility: hidden;
+                  opacity: 0;
+                  transition: all 0.5s ease;
+                  padding-top: 22px;
+                  position: absolute;
+                  display: none;
+                  flex-direction: column;
+
+                  &:hover {
+                    visibility: visible;
+                    opacity: 1;
+                    display: block;
+                  }
+
+                  li {
+                    clear: both;
+                    width: 150px;
+                    background-color: $ln_blue;
+                    padding: .5rem;
+
+                    &:last-child {
+                      padding: .5rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

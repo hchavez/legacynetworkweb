@@ -1,0 +1,117 @@
+@media screen and (min-height: 320px) {
+
+}
+
+@include MQ(XSS) {
+  /*====== Globals =====*/
+
+  /*===== Main menu =====*/
+  .pre-navbar {
+    .container {
+      padding: 0;
+    }
+  }
+
+  /*====== Header =====*/
+  .navbar-brand {
+    padding: 12px 0;
+  }
+
+  .navbar-toggle {
+    margin-right: 0;
+  }
+
+  .beta_info {
+    margin-left: 0;
+  }
+
+  .copyright {
+    color: #aaa;
+    text-align: center;
+  }
+
+  .bottom-menu {
+    bottom: 70px;
+  }
+
+  .home_page_container {
+    h1, h2, h3 {
+      color: black;
+      width: 80%;
+      margin-left: 10% !important;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    .main-heading {
+      font-size: 44px;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+
+    .main-sub-heading {
+      font-size: 24px;
+      margin: 0 auto !important;
+      margin-bottom: 40px !important;
+      width: 60%;
+
+    }
+
+    .links_w_angle_right {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    p.commission_info {
+      color: black;
+      width: 80%;
+      font-size: 16px;
+      margin: 0 auto;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .learn_more {
+      margin-top: 20px;
+      padding: 14px 0;
+      background: #f1f1f1;
+      img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+      }
+    }
+  }
+
+  .home_page_banner {
+    h1, a, p {
+      color: white;
+    }
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      width: 50%;
+      font-size: 18px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    a {
+      background-color: #1591ca;
+      padding: 14px 150px;
+      border-radius: 6px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+  }
+}

@@ -1,0 +1,117 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a,
+button,
+input,
+textarea {
+  outline: none !important;
+}
+
+.minimal-gutters {
+  margin-right: -4px;
+  margin-left: -4px;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+
+:disabled:hover{
+  cursor: not-allowed;
+}
+
+a {
+  color: $ln-blue;
+}
+
+.btn {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.align-vcenter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.align-vcenter2 {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.ui-state-highlight {
+  font-weight:bold !important;
+  border: 1px solid #636363 !important;
+  color: #000000 !important;
+}
+
+.overlayCover{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+
+/* just some content with arbitrary styles for explanation purposes */
+.modalCover{
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  z-index: 11;
+  left: 0;
+  top: 15%;
+  height: 90px;
+  width: 80%;
+  background: red;
+
+  .modalCoverContent {
+    color: white;
+    font-size: 17px;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: white !important;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,289 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#fff, #d3d3e0);
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: #8d8b9c;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 0 0 0;
+    text-align: center;
+    min-width: 1000px;
+}
+
+.subtitle {
+    font-family: "Times New Roman", "serif";
+    font-style: italic;
+    text-align: center;
+    color: #8d8b9c;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.bodybackground {
+    background-image: url(img/body.png);
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 1200px;
+    position: absolute;
+    z-index: 300;
+}
+
+.lines {
+    background-image: url(img/lines.png);
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 400;
+}
+
+#loading {
+    -webkit-animation: rotation 280s infinite linear;
+    width: 1000px;
+    height: 1000px;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.selector {
+    position: absolute;
+    left: 50%;
+    top: 410px;
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+    z-index: 500;
+}
+
+.selector button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: #00a0e0;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow1: 0 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all .5s;
+}
+
+.selector button:hover {
+    backg1round: #fff;
+}
+
+.selector button:focus {
+    outline: none;
+}
+
+.selector ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: -145px;
+    right: -145px;
+    bottom: -145px;
+    left: -145px;
+}
+
+.selector li {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    margin: 0 50%;
+    -webkit-transform: rotate(-360deg);
+    transition: all 0.8s ease-in-out;
+}
+
+.selector li input {
+    display: none;
+}
+
+.selector li input + label {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    line-height: 1px;
+    margin-left: 0;
+    background1: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+}
+
+.red {
+    background: #ea0d44;
+}
+
+.redborder {
+    border-top: 5px solid #ea0d44;
+}
+
+.red:hover {
+    background: #a1082e;
+}
+
+.green {
+    background: #76BC21;
+}
+
+.greenborder {
+    border-top: 5px solid #76BC21;
+}
+
+.green:hover {
+    background: #67a31d;
+}
+
+.orange {
+    background: #FF6C0E;
+}
+
+.orangeborder {
+    border-top: 5px solid #FF6C0E;
+}
+
+.orange:hover {
+    background: #e55f0b;
+}
+
+.purple {
+    background: #863399;
+}
+
+.purpleborder {
+    border-top: 5px solid #863399;
+}
+
+.purple:hover {
+    background: #702a80;
+}
+
+.darkblue {
+    background: #002F87;
+}
+
+.darkblueborder {
+    border-top: 5px solid #002F87;
+}
+
+.darkblue:hover {
+    background: #00266e;
+}
+
+.selector li input + label:hover {
+    backgrou1nd: #f0f0f0;
+}
+
+.selecto1r li input:checked + label {
+    background:;
+    color: white;
+}
+
+.selector li input:checked + label:hover {
+    background:;
+}
+
+.selector.open li input + label {
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    margin-left: -128px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.remodal p {
+    color: #555;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.remodal h4 {
+    text-align: left;
+}
+
+.remodal a {
+    font-family: "Times New Roman", "serif";
+    font-style: italic;
+    color: #555;
+}
+
+.remodal h2 {
+    color: #8d8b9c;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0 40px 0;
+}
+
+.remodal h5 {
+    text-align: left;
+    color: #00a0e0;
+    font-size: 1em;
+}
+
+.mobile-message {
+    display: none;
+}
+
+.mobile-message p {
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 30%;
+}
+
+.biomecontainer {
+    display: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+    .biomecontainer {
+        display: none;
+    }
+
+    .mobile-message {
+        display: inherit;
+    }
+}
+

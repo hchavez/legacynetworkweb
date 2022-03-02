@@ -1,0 +1,59 @@
+@media screen and (min-width: $S) {
+  header.purl_container {
+    text-align: right;
+
+    h4 {
+      color: $white;
+      font-family: $cabin;
+      font-size: 1rem;
+    }
+  }
+
+  .public_page_container {
+    .banner {
+      background: url(/new_images/banner_bg.png) no-repeat top;
+      background-position-y: -247px;
+      background-size: cover;
+      padding-bottom: 0;
+
+      header {
+        height: 64px;
+        display: flex;
+
+        .container {
+          flex-direction: row;
+
+          nav {
+            ul {
+              top: 64px;
+            }
+          }
+        }
+      }
+
+      .container {
+        .banner_text {
+          font-family: $north;
+          text-align: center;
+
+          &--sub_title {
+            font-size: 1.75rem;
+            margin-top: 4rem;
+          }
+
+          &--title {
+            font-size: 4rem;
+          }
+
+          &--info {
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,30 @@
+footer {
+  background-color: $white;
+  color: $white;
+  padding: 15px 15px;
+  width: 100%;
+
+  &.pos_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.social__icons {
+  a {
+    background-color: $grey;
+    border-radius: 50%;
+    color: $white;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 2px 3px;
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+      background-color: $light_blue;
+    }
+  }
+}

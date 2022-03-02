@@ -1,0 +1,41 @@
+@include MQ(XXL) {
+  /*====== Globals =====*/
+
+  /*====== Header =====*/
+  .navbar > li > a {
+    font-size: 1.0625em; /* 17px */
+  }
+
+  /*====== Banner =====*/
+  .banner {
+    &-content {
+      width: 500px;
+    }
+
+    &-bg-opacity {
+      .banner-content {
+        position: absolute;
+        left: 15%;
+        top: 350px;
+        h2 {
+          font-size: 2em;
+        }
+
+        .banner-button {
+          margin-left: 120px;
+        }
+      }
+    }
+  }
+
+  /*====== Legacy News =====*/
+  .news {
+    &__search {
+      input {
+        margin-right: 15px;
+        width: 167px;
+      }
+    }
+  }
+
+}

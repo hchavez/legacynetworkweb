@@ -1,0 +1,39 @@
+@media screen and (min-height: 480px) {
+
+}
+
+@include MQ(XS) {
+  /*====== Globals =====*/
+
+  /*====== Header =====*/
+  .navbar-brand {
+    padding: 16px 0;
+  }
+
+  .banner-content {
+    padding: 0;
+    width: 170px;
+    font-size: 32px;
+    margin-left: 0;
+    top: 25%;
+    left: 15%;
+    h2 {
+      padding: 0;
+      margin-top: 0;
+    }
+    .banner-button {
+      padding: 0;
+      margin: 0;
+      width: 88px;
+      height: 88px;
+    }
+    a {
+      border: 8px solid $light_blue;
+      width: 88px;
+      height: 88px;
+      font-size: 20px;
+      padding: 12px 22px;
+    }
+  }
+
+}

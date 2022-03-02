@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"my",
+				"myImage"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"syne",
+				"synergy_account_number"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bg",
+				"background-color\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"section-a",
+				"section-absolutely"
+			],
+			[
+				"The",
+				"Therapuetics"
+			],
+			[
+				"data",
+				"dataDB"
+			],
+			[
+				"problem",
+				"problem-immune"
+			],
+			[
+				"End",
+				"Endurance"
+			],
+			[
+				"daa",
+				"dataPage"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"se",
+				"send_invites"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"bank",
+				"bankname"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"suc",
+				"Successfully"
+			],
+			[
+				"message",
+				"message_type"
+			],
+			[
+				"mess",
+				"message_type"
+			],
+			[
+				"last",
+				"lastname_owner"
+			],
+			[
+				"video",
+				"video_invite"
+			],
+			[
+				"pre",
+				"preview_area"
+			],
+			[
+				"me",
+				"methaboliclbl"
+			],
+			[
+				"Bu",
+				"Button"
+			],
+			[
+				"Meta",
+				"methaboliclbl"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"do",
+				"down-preview"
+			],
+			[
+				"a",
+				"add"
+			],
+			[
+				"row",
+				"rowprev"
+			],
+			[
+				"table",
+				"table-preview"
+			],
+			[
+				"dis",
+				"display1val1"
+			],
+			[
+				"delete",
+				"delete1"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"col",
+				"color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/viptutors.co.live/ci_application/config/development/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/viptutors.co.live/ci_application/config/development/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/viptutors.co.live/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/FileUploaderController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/.env",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/partials/skincare_banner.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/skin_care.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/SendInvitesController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/partials/ehc_banner.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/partials/cardio_banner.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/homepage.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/includes/products.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/routes/legacynetwork.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/business_page_popups/coming_soon.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/includes/elite_page.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/_992.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/_768.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/_1600.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/SendInvites.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/assets/sass3/partials/_content.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/helpers.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/DistributorController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/partials/banner.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/routes/web.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/HomeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/routes/public.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/cardio_health.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/LnFees.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/shared.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/dashboard_v3/profile_v2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/tutors_v2/index_page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/tutors_v2/block/filter_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/composer.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/send_invites/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/MemberInvitesController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/UserSignUp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/MemberInvitesServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/EliteChallengeWelcomeMail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/EliteChallengeDay4Email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/EliteChallengeDay3Email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/EliteChallengeDay5Email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/MemberInvitesRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/SiteSettings.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/bsstar_admin/listing/users/block/bank_account_row.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/dashboard_v3/block/bank_account_row.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/models/Listing_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/views/template/_inc_js/dashboard_js.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/models/ListingBankAccount_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/controllers/axhr/Profile.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/controllers/adm1neduc/User.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/ci_application/models/BankAccount_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/SiteSettingsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/LegacyNetwork/Eloquent/Repository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/public/js/helpers.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/LnFeesRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/LnFeesServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/AutoShips.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/SupportTicketsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/UsersRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/SupportTicketsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/EventsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/EventsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Requests/SupportTicketRequest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Requests/SendInviteRequest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/SupportTicketController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages_v2/elite_challenge.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/public_pages/elite_business_system.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/support/open_ticket.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/LegacyNetwork/Services/Services.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/User.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/SupportTicketStatusesRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Mail/EliteChallengeDay15Email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Contracts/Mail/Mailable.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/LegacyNetwork/Contracts/RepositoryInterface.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/SupportTickets.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/SendInvitesRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/ProductsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/Events.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/ProductsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/settings/personal_details.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/settings/update_payment_info.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/UsersServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/Auth/RegisterController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Transformers/AchievementLevelsTransformer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/routes/api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/Api/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/Api/DistributorController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/MemberCertificationController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/Api/SuccessCompass/NextStepGoalsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/TeamMembersController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/training/team_members.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/business_building/ehc_members.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/Api/SuccessCompass/GoalsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Requests/Api/SuccessCompass/GoalsRequest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Transformers/SuccessCompassGoalsTransformer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/UserHealthGoals.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/team_meetings/lead.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Transformers/UserProfileTransformer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/vendor/dompdf/dompdf/src/FrameDecorator/Image.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/SuccessCompassController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/MeetingsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/EntrepreneurshipTrainingController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/distributor/business_building/member_certification.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/resources/views/layouts/partials/sidenav.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/SendInvitesController copy.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/SupportTicketCommentsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/SupportTicketCommentsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/SupportTicketComments.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Transformers/TeamMemberTransformer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/UserMeetingsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/MeetingsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/UserNextStepGoals.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/TeamMembersController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/PurlController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/UserEventsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Http/Controllers/SwaggerUiController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Services/AdvancedAchievementsServices.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/BonusPathsRepository.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/UserEvents.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Models/MemberInvites.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ln-laravel/app/Repositories/NotificationMessagesRepository.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "server.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

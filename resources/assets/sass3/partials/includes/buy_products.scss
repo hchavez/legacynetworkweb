@@ -1,0 +1,53 @@
+.buy_products_page_container {
+  .banner {
+    padding-bottom: 0;
+    .container {
+      .banner_text {
+        .banner_text--title {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .title_section {
+
+    .container {
+      &--item {
+        &:first-child {
+          margin-bottom: 50px;
+
+          .section_title {
+            text-align: center;
+            font-family: $cabin;
+          }
+        }
+
+        &:last-child {
+          .interested {
+            padding: 1rem 2rem;
+            background-color: $ln_blue;
+            color: $white;
+            text-align: center;
+            font-size: 2rem;
+            border-radius: 1rem;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &:first-child {
+        
+      }
+
+      :last-child {
+        text-align: center;
+      }
+
+    }
+
+    
+
+  }
+
+
+}

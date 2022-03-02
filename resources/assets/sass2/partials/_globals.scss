@@ -1,0 +1,263 @@
+* {
+  //outline: 1px solid red;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: $black;
+  font-family: $roboto;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header_blue;
+  font-family: $cabin;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 1.5625em; /* 25px */
+}
+
+h2 {
+  font-size: 1.4em; /* 20px */
+}
+
+h3 {
+  font-size: 1.3em; /* 18px */
+}
+
+h4 {
+  font-size: 1.25em; /* 16px */
+}
+
+h5 {
+  /*font-size: 0.875em;   14px */
+  font-size: 1.125em; /* 16px */
+}
+
+h6 {
+  font-size: 1em; /* 12px */
+}
+
+a {
+  color: $light_blue;
+  &:hover,
+  &:visited,
+  &:link {
+    text-decoration: none;
+  }
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.875em; /* 14px */
+  line-height: 1.8em;
+  margin: 0 0 30px;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+section {
+  position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+  clear: both;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.img-placeholder {
+  width: 100%;
+}
+
+.flexbox-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-vcenter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.btn {
+  border-radius: 0;
+  background-color: $blue_btn_2;
+  color: $white;
+  font-size: 1em;
+  margin: 15px 0;
+  padding: 10px 30px;
+
+  &:hover {
+    background-color: $blue_btn_1;
+    color: $white;
+  }
+}
+
+.paddingLR-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+form {
+  label {
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  input {
+    border-radius: 0 !important;
+    padding: 20px 10px !important;
+  }
+
+  span.why_needed {
+    font-size: 13px;
+    font-weight: lighter;
+    color: $blue_btn_1
+  }
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/**
+        * Simple fade transition,
+        */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+.mfp-title {
+  position: absolute;
+  /* other formatting */
+}
+
+.grid-item-content {
+  margin: 5px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.double-height {
+  height: 500px;
+}
+
+.single-height {
+  height: 250px;;
+}
+
+.blurb {
+  font-size: 26px;
+  line-height: normal;
+  font-family: 'PT Serif', serif;
+}
+
+.blurb-left {
+  margin-left: 5%;
+  text-align: left;
+  width: 35%;
+}
+
+.blurb-right {
+  margin-left: 58%;
+  text-align: left;
+  width: 40%;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.table.no-border {
+  border: none !important;
+
+  th {
+    border: none !important;
+  }
+
+  td {
+    border: none !important;
+  }
+
+  tr {
+    border: none !important;
+  }
+}
+
+.relative {
+  position: relative
+}

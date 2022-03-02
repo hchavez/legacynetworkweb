@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'North-Regular';
+  src: url('fonts/North-Regular.eot');
+  src: url('fonts/North-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/North-Regular.woff2') format('woff2'),
+  url('fonts/North-Regular.woff') format('woff'),
+  url('fonts/North-Regular.ttf') format('truetype'),
+  url('fonts/North-Regular.svg#North-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn-light {
+  border-radius: 4px;
+  background-color: $white;
+  color: $ln_blue;
+  font-size: 1em;
+  padding: 6px 36px;
+  transition: 0.1s;
+
+  &:hover {
+    background-color: $ln_blue_light;
+    color: $white;
+  }
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: $ln_blue;
+  color: $white;
+  font-size: 1em;
+  padding: 6px 36px;
+  transition: 0.1s;
+
+  &:hover {
+    background-color: $ln_blue_light;
+  }
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}

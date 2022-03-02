@@ -1,0 +1,1 @@
+<h1 style="font-family: sans-serif; font-size: 16px; margin: 0; color: #333; {{ $style or null }}">{{ $text }}</h1>
